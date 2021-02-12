@@ -1,0 +1,137 @@
+/***** TO MAKE THE SITE STATIC  *****/
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+/***** HEADER SECTION *****/
+
+header h1 span {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+h2{
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font: 18px;
+    text-transform: uppercase;
+
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.header-image {
+    border-top: 3px #77a466 solid;
+    border-bottom: 3px #77a466 solid;
+}
+
+/***** NAV SECTION *****/
+
+
+nav {
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: 600;
+    font-size: smaller;
+    padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+/***** GRID *****/
+
+
+h4 {
+    text-transform: uppercase;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.full-width.grid {
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width.both-sides-border{
+    border-left: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+    padding-left: 20px;
+}
+
+.third-width {
+    width: 379px;
+    float: left;
+    padding-left: 20px;
+}
+
+.light-height {
+    line-height: 550px;
+}
+
+.specials {
+    color: #77a466;
+    font-weight: 300;
+}
+
+.change-height {
+    line-height: 10px;
+}
+
+#needs-margin {
+    margin-bottom: 30px;
+}
+
+/***** FOOTER SECTION *****/
+
+h3 {
+    text-align: center;
+}
+
+.byline {
+    align-content: center;
+    clear: both;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#fresh {
+    color: #77a466;
+    font-family: Parisienne;
+    text-transform: lowercase;
+}
